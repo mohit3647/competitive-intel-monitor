@@ -1,0 +1,27 @@
+{
+  "name": "competitive-intel-monitor",
+  "version": "1.0.0",
+  "description": "AI-powered competitive intelligence monitor agent for Product Managers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js --verbose"
+  },
+  "keywords": [
+    "competitive-intelligence",
+    "product-management",
+    "ai-agent",
+    "market-analysis"
+  ],
+  "author": "mohit3647",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}

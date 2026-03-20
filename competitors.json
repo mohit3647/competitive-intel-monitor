@@ -1,0 +1,15 @@
+{
+  "competitors": [
+    {
+      "name": "Example Competitor",
+      "website": "https://example.com",
+      "signals": ["product", "pricing", "hiring", "funding", "positioning"],
+      "notes": "Replace with your actual competitors"
+    }
+  ],
+  "settings": {
+    "briefFrequency": "weekly",
+    "alertThreshold": "high",
+    "maxSignalsPerCompetitor": 20
+  }
+}
